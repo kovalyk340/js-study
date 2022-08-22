@@ -125,6 +125,83 @@ if (isNaN(tester)) {
 
 
 
+// ** Дополнительная информация
+// * switch - case
+
+// Если пользователь ввёл 1, то вывести 'ok'
+// Если пользователь ввёл 2, то вывести 'okokok'
+// Если пользователь ввёл 3, то вывести 'ha-ha'
+// Если пользователь ввёл 4, то вывести 'ahahaha'
+// Если пользователь ввёл 5, то вывести 'oy'
+// В противном случае вывести 'yo-yo'
+
+// let userMessage = Number(prompt('write 1 to 5'));
+
+// switch (userMessage) {
+//     case 1:  // userMessage === 1
+//         console.log('ok');
+//         break;
+
+//     case 2: console.log('okokok');
+//         break;
+
+//     case 3:
+//         console.log('ha-ha');
+//         break;
+
+//     case 4:
+//         console.log('ahahaha');
+//         break;
+
+//     case 5:
+//         console.log('oy');
+//         break;
+
+//     default:
+//         console.log('yo-yo');
+
+// }
+
+// if (userMessage === 1) {
+//     console.log('ok');
+// } else if (userMessage === 2) {
+//     console.log('okokok');
+// } else if (userMessage === 3) {
+//     console.log('ha-ha');
+// }
+
+
+// * Тернарный оператор
+let value = 11;
+
+if (value % 2 === 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+value % 2 === 0 ? console.log(true) : console.log(false)
+
+console.log(value % 2 === 0 ? true : false)
+
+
+
+// Другие случаи с тернарным оператором:
+
+let userValue = 0;
+
+
+if (userValue === 0) {
+    console.log(true);
+}
+
+// Без иначе в тернарном выражении никак
+userValue === 0 ? console.log(true) : null
+
+
+userValue === 0 && console.log(true) // 
+
+
 
 
 

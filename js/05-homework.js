@@ -283,3 +283,20 @@
 // console.log(0 || 0 || 0 || 0 || 1);1
 // console.log((0 || 0 || 2) && ("" || NaN)); NaN
 // console.log(null || 0 || false || undefined || "" || -1 || NaN || 1); -1
+
+
+// 20. ★ Задача ★
+// Не выполняя код, дать ответ:
+// Что выведется в консоль? Ответ записать в комментарий.
+
+// console.log(!!null || !!!false && !""); true
+// console.log(5 > 3 && 1 && !null); true
+// console.log('text' || 5 > 3 || null); "text"
+// console.log(!'text' || 5 > 3 || undefined); true
+// console.log(undefined && false && null && 0); undefined
+
+// console.log(false && 'image'); false
+// console.log(!0 && !null && !undefined && !NaN && !' ' && !false && !''); false
+// console.log(!!!false && (!!!true || !!!false)); true
+// console.log('false' && true && !'' && true);true
+// console.log('false' || true || !'' || true); "false"
