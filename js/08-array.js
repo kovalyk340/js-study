@@ -68,4 +68,28 @@ console.log(taskArray); // [4, 8, 15, 16, 23, 42, 7, 3, 1]
 // 4. <array>.shift() - удаляет ОДИН ПЕРВЫЙ элемент, изменяя сам массив (мутирует)
 
 
+// 5. Array.isArray(<variable>) - проверяет на массив (если массив, то вернёт true, иначе false)
+
+console.log(typeof []);
+console.log(typeof {});
+console.log(Array.isArray([]));
+console.log(Array.isArray({}));
+
+
+
+// * == Обратить ко всем сразу элементам массива (НЕЛЬЗЯ)
+
+for (let i = 0; i < taskArray.length; i++) {
+    // console.log(taskArray); // Массив
+    console.log(taskArray[i]); // Элемент массива
+    // console.log(i); // Индекс
+
+    taskArray[i] *= 2
+}
+
+
+
+
+
+
 
