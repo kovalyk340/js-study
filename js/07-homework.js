@@ -314,14 +314,12 @@
 // }
 // console.log(sum);
 
-// FIXME: 25. Задача
+//  25. Задача
 // Посчитать сумму только нечётных чисел в диапазоне от 4 до 12 вкл.
 
 // let sum = 0;
 // for (i = 4; i <= 12; i++) {
-//     if (i % 2 !== 0) {
-//         sum += i
-//     }
+// (i % 2 !== 0 ? sum += i : null)
 // }
 // console.log(sum);
 
@@ -359,9 +357,27 @@
 // 13
 // Результат: 340
 
-// let userNumber = Number(prompt("Введите люббое число:"));
+
 // let result = 0;
-// if
+// while (true) {
+//     let userNumber = Number(prompt("Введите люббое число:"));
+//     if (userNumber === 0) {
+//         break
+//     }
+//     const square = userNumber ** 2
+//     result += square
+// }
+// console.log(result);
+
+
+
+
+// console.log(100);
+// if (6 > 7) {
+//     console.log(111);
+// }
+// console.log(222);
+
 
 // ★ 30. Задача ★
 // Запросить у пользователя 2 числа - число a и число b Вывести в консоль среднее арифметическое всех чисел из этого промежутка от a до b включительно, которые кратны 3.
@@ -386,6 +402,60 @@
 //     }
 // }
 // console.log(sum);
+
+// ★ Задачи на вложенные циклы ★
+// ★ 33. Задача ★
+// С помощью вложенных циклов и символа * нарисуйте:
+
+// const STAR = '*';
+// let result = '';
+// for (let i = 1; i <= 4; i++) {
+
+//     for (let x = 0; x < i; x++) {
+//         result = result + STAR
+//     }
+//     result += '\n'
+// }
+// console.log(result);
+
+// ★ 34. Задача ★ не решил
+// С помощью вложенных циклов нарисуйте:
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
+
+// const NUMBER = 1;
+// let result = '';
+// for (let i = 1; i <= 5; i++) {
+//     for (let x = 0; x < i; x++) {
+//         result = result + NUMBER;
+//     }
+//     result += '\n'
+// }
+// console.log(result);
+
+// ★ 36. Задача ★
+// С помощью вложенных циклов и символа * нарисуйте:
+
+// ****
+// ***
+// **
+// *
+const STAR = '****';
+let result = '';
+
+
+for (let i = 1; i <= 4; i++) {
+
+    for (let j = 0; j < i; j++) {
+        result = result + STAR
+    }
+    result += '\n'
+}
+console.log(result);
+
 
 
 

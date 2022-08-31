@@ -18,6 +18,8 @@ for (let i = 0; i < 3; i++) {
 
 
 
+
+
 // i = 0
 // i < 3
 //  console.log('ok');
@@ -85,16 +87,25 @@ for (let i = 9; i > 0; i--) {
 
 
 // * 4. oo - cycle
+// 1 вариант (не использовать)
 // for(;;)
 
+// 2 вариант
+
+// while (true) {
+//     // code...
+//     if (<answer> === '<exit>') {
+//         break;
+//     }
+// }
+
+// 3 вариант
 // let run = true;
 // while (run) {
-//     let answer = prompt('msg');
-//     if (answer === 'exit') {
-//         // break;
+//     // code...
+//     if (<answer> === '<exit>') {
 //         run = false;
-
-//         // save
+//         // more code
 //     }
 // }
 
