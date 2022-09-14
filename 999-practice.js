@@ -107,6 +107,45 @@
 
 
 
+// * ===== 14.09.2022 ===== * //
+
+
+// 1 задача
+// 1. Создать массив чисел
+// 2. Добавить с помощью метода в конец массива число 7
+
+// const newArray = [1,5,6,7,10]
+// newArray.push(7);
+// console.log(newArray);
+
+// 2 задача 
+// Вывести в столби все элементы массива
+// Если это последний элемент, то вывести удвоенное значение
+
+const newArray = [1, 5, 6, 7, 10]
+// for (let i = 0; i < newArray.length; i++) {
+//     if (i === newArray.length - 1) {
+//         console.log(newArray[i] * 2);
+//     } else {
+//         console.log(newArray[i]);
+//     }
+// }
+
+for (let i = 0; i < newArray.length; i++) {
+    console.log(i === newArray.length - 1 ? newArray[i] * 2 : newArray[i])
+}
+
+
+
+
+
+// console.log(newArray[0]);
+// console.log(newArray[1]);
+// console.log(newArray[2]);
+// console.log(newArray[3]);
+// console.log(newArray[4]);
+
+
 
 
 
