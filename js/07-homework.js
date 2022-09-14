@@ -426,35 +426,89 @@
 // 4 4 4 4
 // 5 5 5 5 5
 
-// const NUMBER = 1;
+
 // let result = '';
 // for (let i = 1; i <= 5; i++) {
 //     for (let x = 0; x < i; x++) {
-//         result = result + NUMBER;
+//         result = result + i + ' ';
 //     }
 //     result += '\n'
 // }
 // console.log(result);
 
+
+// ★ 35. Задача ★
+// С помощью вложенных циклов нарисуйте:
+
+// 1
+// X X
+// 3 3 3
+// X X X X
+// 5 5 5 5 5
+
+let result = '';
+for (let i = 1; i <= 5; i++) {
+
+    for (let x = 0; x < i; x++) {
+        if (i % 2 === 0) {
+            i = "X";
+            result = result + i + ' ';
+        }
+        result = result + i + ' ';
+    }
+    result += '\n'
+}
+console.log(result)
+
 // ★ 36. Задача ★
 // С помощью вложенных циклов и символа * нарисуйте:
-
+4263
 // ****
 // ***
 // **
 // *
-const STAR = '****';
-let result = '';
+// const STAR = '*';
+// let result = '';
 
 
-for (let i = 1; i <= 4; i++) {
+// for (let i = 4; i >= 1; i--) {
 
-    for (let j = 0; j < i; j++) {
-        result = result + STAR
-    }
-    result += '\n'
-}
-console.log(result);
+//     for (let j = 0; j < i; j++) {
+//         result = result + STAR
+//     }
+//     result += '\n'
+// }
+// console.log(result);
+
+
+
+// for (let i = 0; i < 4; i++) {
+
+// }
+// for (let i = 1; i <= 4; i++) {
+
+// }
+// for (let i = 1; i < 5; i++) {
+
+// }
+// for (let i = 5; i > 1; i--) {
+
+// }
+// for (let i = 4; i >= 1; i--) {
+
+// }
+
+// i-=2 --> i = i - 2
+// for (let i = 8; i >= 1; i -= 2) {
+//     console.log(i);
+// }
+// for (let i = 8000; i >= 1; i -= 2000) {
+//     console.log(i);
+// }
+// for (let i = 32000000000; i >= 1; i /= 2000) {
+//     console.log(i);
+// }
+
 
 
 

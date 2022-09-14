@@ -88,7 +88,33 @@ const arrNum = [1, 2, 3, 654, 65]
 //     console.log(numberArr + "=x3=");
 // }
 
-// .
+
+// 12. Задача
+// Дан массив чисел. Вывести в консоль элементы массива в столбик в обратном порядке.
 
 const numberList = [99, 88, 77, 66, 55];
+// console.log(numberList.reverse());
 
+
+// console.log(numberList[0]);
+// console.log(numberList[1]);
+// console.log(numberList[2]);
+// console.log(numberList[3]);
+// console.log(numberList[4]);
+
+// for (let i = 0; i < numberList.length; i++) {
+//     console.log(numberList[i]);
+
+// }
+
+// let i = numberList.length
+for (let i = numberList.length - 1; i >= 0; i--) {
+    // if (i >= 0) {
+    console.log(numberList[i]);
+    // } else {
+    // -> to end cycle
+    // }
+
+    // i--
+}
+// end cycle<-
