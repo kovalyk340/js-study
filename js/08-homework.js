@@ -108,13 +108,13 @@ const numberList = [99, 88, 77, 66, 55];
 // }
 
 // let i = numberList.length
-for (let i = numberList.length - 1; i >= 0; i--) {
-    // if (i >= 0) {
-    console.log(numberList[i]);
-    // } else {
-    // -> to end cycle
-    // }
+// for (let i = numberList.length - 1; i >= 0; i--) {
+//     // if (i >= 0) {
+//     console.log(numberList[i]);
+//     // } else {
+//     // -> to end cycle
+//     // }
 
-    // i--
-}
+//     // i--
+// }
 // end cycle<-
