@@ -72,10 +72,10 @@ console.log(taskArray); // [4, 8, 15, 16, 23, 42, 7, 3, 1]
 // 5. Array.isArray(<variable>) - проверяет на массив (если массив, то вернёт true, иначе false)
 
 
-console.log(typeof []);
-console.log(typeof {});
-console.log(Array.isArray([]));
-console.log(Array.isArray({}));
+console.log(typeof []); // 'object'
+console.log(typeof {}); // 'object'
+console.log(Array.isArray([])); // true
+console.log(Array.isArray({})); // false
 
 
 
